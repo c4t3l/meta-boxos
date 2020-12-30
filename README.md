@@ -47,6 +47,8 @@ Run 'bitbake-layers add-layer meta-distro'
 II. Misc
 ========
 
+## Systemd Components
+
 Meta-boxos creates a systemd based container operating system.  There is no docker/podman software installed with this layer. 
 It makes use of the primitives provided by systemd only.  The following systemd features are installed:
 
@@ -58,3 +60,11 @@ It makes use of the primitives provided by systemd only.  The following systemd 
 - systemd-timedated  
 - systemd-timesyncd
 
+## Control Plane 
+
+The control plane consists of a `SaltStack Minion` and `pystemd` python library.  `Nspawn` and `Portable Service` images are `zstd` compressed `btrfs subvolumes`.  
+
+## Image Attributes
+
+Meta-boxos provides for A/B type root partition based upon the [Discoverable Partitions Specification](https://systemd.io/DISCOVERABLE_PARTITIONS/) and 
+uses `systemd-boot` as its bootloader.
