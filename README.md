@@ -5,19 +5,19 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: git://git.yoctoproject.org/poky.git
+  URI: git://git.yoctoproject.org/poky.git  
   branch: dunfell
 
-  URI: git://git.openembedded.org/openembedded-core
+  URI: git://git.openembedded.org/openembedded-core  
   branch: dunfell
 
-  URI: git://git.yoctoproject.org/meta-intel
+  URI: git://git.yoctoproject.org/meta-intel  
   branch: dunfell
 
-  URI: git://git.yoctoproject.org/meta-cloud-services
+  URI: git://git.yoctoproject.org/meta-cloud-services  
   branch: dunfell
 
-  URI: git://git.yoctoproject.org/meta-virtualization
+  URI: git://git.yoctoproject.org/meta-virtualization  
   branch: dunfell
 
   .
