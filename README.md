@@ -74,21 +74,21 @@ uses `systemd-boot` as its bootloader.
 
 yocto01➜  build  ᐅ  bitbake-layers show-layers
 NOTE: Starting bitbake server...
-layer                 path                                      priority
-==========================================================================
-meta                  /home/rcallicotte/poky/meta               5
-meta-poky             /home/rcallicotte/poky/meta-poky          5
-meta-yocto-bsp        /home/rcallicotte/poky/meta-yocto-bsp     5
-meta-systemd          /home/rcallicotte/build/meta-systemd      6
-meta-intel            /home/rcallicotte/build/meta-intel        5
-meta-oe               /home/rcallicotte/build/meta-openembedded/meta-oe  6
-meta-filesystems      /home/rcallicotte/build/meta-openembedded/meta-filesystems  6
-meta-networking       /home/rcallicotte/build/meta-openembedded/meta-networking  5
-meta-python           /home/rcallicotte/build/meta-openembedded/meta-python  7
-meta-cloud-services   /home/rcallicotte/build/meta-cloud-services  5
-meta-webserver        /home/rcallicotte/build/meta-openembedded/meta-webserver  6
-meta-virtualization   /home/rcallicotte/build/meta-virtualization  8
-meta-openstack        /home/rcallicotte/build/meta-cloud-services/meta-openstack  5
-meta-boxos            /home/rcallicotte/build/meta-boxos        6
-meta-saltstack        /home/rcallicotte/build/meta-saltstack    6
+layer                 path                                      priority  
+
+meta                  /home/rcallicotte/poky/meta               5  
+meta-poky             /home/rcallicotte/poky/meta-poky          5  
+meta-yocto-bsp        /home/rcallicotte/poky/meta-yocto-bsp     5  
+meta-systemd          /home/rcallicotte/build/meta-systemd      6  
+meta-intel            /home/rcallicotte/build/meta-intel        5  
+meta-oe               /home/rcallicotte/build/meta-openembedded/meta-oe  6  
+meta-filesystems      /home/rcallicotte/build/meta-openembedded/meta-filesystems  6  
+meta-networking       /home/rcallicotte/build/meta-openembedded/meta-networking  5  
+meta-python           /home/rcallicotte/build/meta-openembedded/meta-python  7  
+meta-cloud-services   /home/rcallicotte/build/meta-cloud-services  5  
+meta-webserver        /home/rcallicotte/build/meta-openembedded/meta-webserver  6  
+meta-virtualization   /home/rcallicotte/build/meta-virtualization  8  
+meta-openstack        /home/rcallicotte/build/meta-cloud-services/meta-openstack  5  
+meta-boxos            /home/rcallicotte/build/meta-boxos        6  
+meta-saltstack        /home/rcallicotte/build/meta-saltstack    6  
 
